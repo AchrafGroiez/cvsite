@@ -1,0 +1,50 @@
+@import url("./navbar.css");
+@import url("./accueil.css");
+@import url("./cv.css");
+@import url("./projet.css");
+@import url("./dessin.css");
+@import url("./footer.css");
+@import url("./notfound.css");
+
+:root{
+    --blueNav:rgb(0, 75, 112);
+}
+
+
+.toCenter{
+    text-align: center;
+}
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 117, 218);
+    color: white;
+}
+
+.app-content{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.notbold{
+    font-weight: normal;
+}
+
+.portfolio-img{
+    width: 300px;
+    height: 200px;
+    border: var(--borderimg);
+
+}
+
+.totalFlexCol{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.center{
+    text-align: center;
+}

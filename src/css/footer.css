@@ -1,0 +1,21 @@
+.Footer{
+    background-color: rgb(3, 8, 33);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.payment-pic{
+    width: 50px;
+}
+
+.payment{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-link{
+    background-color: var(--blueNav);
+    color: white;
+}

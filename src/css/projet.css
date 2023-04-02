@@ -1,0 +1,26 @@
+.img-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.img-link:hover{
+    filter: brightness(50%);
+}
+
+.flex{
+    display: flex;
+}
+
+.desc{
+    max-width: 400px;
+    border: var(--borderimg);
+}
+
+.projet-a{
+    line-height: 0px;
+    max-width: 100%;
+}
+
+.portfolio-img{
+    width: 50px;
+    max-width: 90%;
+}
